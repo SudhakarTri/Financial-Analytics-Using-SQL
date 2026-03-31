@@ -1,7 +1,7 @@
 
 # 📊 Gross Sales Reporting with SQL  
 ---
-
+To access SQL File - [Finance Analytics SQL](finance_analytics.sql)
 ## 🚀 Overview
 This project showcases how SQL can be leveraged to build a **scalable reporting pipeline** for analyzing for analyzing gross sales across **retail customers**.  
 
@@ -38,7 +38,7 @@ WHERE customer LIKE "%croma%" AND market = "India";
 
 ---
 
-### 2️⃣ Fiscal Year Function
+### 2️⃣ Fiscal Year Function 
 ```sql
 CREATE FUNCTION get_fiscal_year(calendar_date DATE)
 RETURNS INT
