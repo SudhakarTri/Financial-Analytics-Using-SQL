@@ -67,7 +67,7 @@ SELECT
     	    customer_code=90002002 AND 
             get_fiscal_year(s.date)=2021 ;
 
-### Module: Gross Sales Report: Total Sales Amount
+### Gross Sales Report: Total Sales Amount
 
 -- Generate monthly gross sales report for Croma India for all the years
 	SELECT 
@@ -80,7 +80,7 @@ SELECT
              customer_code=90002002
 	GROUP BY date;
 
-### Module: Stored Procedures: Monthly Gross Sales Report
+### Stored Procedures: Monthly Gross Sales Report
 
 -- Generate monthly gross sales report for any customer using stored procedure
 
