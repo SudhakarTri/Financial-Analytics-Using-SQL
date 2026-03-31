@@ -93,6 +93,8 @@ WHERE customer_code = 90002002
 ```
 ✔ Calculates **gross sales revenue per product**.
 
+<img width="1014" height="389" alt="Image" src="https://github.com/user-attachments/assets/d3ee1c51-e8b2-4dec-ac34-832c94e59d9c" />
+
 ---
 
 ### 6️⃣ Monthly Gross Sales Report
@@ -107,6 +109,8 @@ WHERE customer_code = 90002002
 GROUP BY s.date;
 ```
 ✔ Aggregates **monthly sales totals**.
+
+<img width="268" height="464" alt="Image" src="https://github.com/user-attachments/assets/4b774cad-203d-473f-85d8-ce8c7390682f" />
 
 ---
 
